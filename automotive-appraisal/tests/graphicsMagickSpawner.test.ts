@@ -7,6 +7,7 @@ import { GraphicsMagickService } from '../src/main/services/graphicsMagickServic
 import * as childProcess from 'child_process';
 import * as fs from 'fs';
 import { EventEmitter } from 'events';
+import { describe, it, expect, beforeEach, jest } from '@jest/globals';
 
 // Mock child_process
 jest.mock('child_process');
@@ -297,17 +298,31 @@ describe('GraphicsMagickSpawner', () => {
       const result = await convertPromise;
 
       expect(result).toBe('/path/to/output.png');
-      expect(childProcess.spawn).toHaveBeenCalledWith(
-        '/mock/gm/bin/gm',
-        [
-          'convert',
-          '-density', '300',
-          '-resize', '2480x3508',
-          '/path/to/input.pdf[0]',
-          '/path/to/output.png'
-        ],
-        expect.any(Object)
-      );
+      const spawnArgs = (childProcess.spawn as jest.Mock).mock.calls[0][1];
+      expect(spawnArgs).toEqual([
+        'convert',
+        '-density', '300',
+        '-units', 'PixelsPerInch',
+        '-define', 'pdf:use-cropbox=true',
+        '-background', 'white',
+        '/path/to/input.pdf[0]',
+        '-alpha', 'remove',
+        '-alpha', 'off',
+        '-flatten',
+        '-strip',
+        '-filter', 'Lanczos',
+        '-resize', '2480x3508>',
+        '-colorspace', 'Gray',
+        '-type', 'Grayscale',
+        '-contrast-stretch', '0.35%x0.35%',
+        '-sharpen', '0x1.0',
+        '-enhance',
+        '-normalize',
+        '-depth', '8',
+        '-quality', '100',
+        '-compress', 'Zip',
+        '/path/to/output.png'
+      ]);
     });
 
     it('should use custom density and dimensions', async () => {
@@ -331,17 +346,31 @@ describe('GraphicsMagickSpawner', () => {
 
       await convertPromise;
 
-      expect(childProcess.spawn).toHaveBeenCalledWith(
-        '/mock/gm/bin/gm',
-        [
-          'convert',
-          '-density', '150',
-          '-resize', '1240x1754',
-          '/path/to/input.pdf[1]',
-          '/path/to/output.png'
-        ],
-        expect.any(Object)
-      );
+      const spawnArgs = (childProcess.spawn as jest.Mock).mock.calls[0][1];
+      expect(spawnArgs).toEqual([
+        'convert',
+        '-density', '150',
+        '-units', 'PixelsPerInch',
+        '-define', 'pdf:use-cropbox=true',
+        '-background', 'white',
+        '/path/to/input.pdf[1]',
+        '-alpha', 'remove',
+        '-alpha', 'off',
+        '-flatten',
+        '-strip',
+        '-filter', 'Lanczos',
+        '-resize', '1240x1754>',
+        '-colorspace', 'Gray',
+        '-type', 'Grayscale',
+        '-contrast-stretch', '0.35%x0.35%',
+        '-sharpen', '0x1.0',
+        '-enhance',
+        '-normalize',
+        '-depth', '8',
+        '-quality', '100',
+        '-compress', 'Zip',
+        '/path/to/output.png'
+      ]);
     });
 
     it('should use 0-based page indexing', async () => {
@@ -366,6 +395,49 @@ describe('GraphicsMagickSpawner', () => {
         expect.arrayContaining(['/path/to/input.pdf[4]']),
         expect.any(Object)
       );
+    });
+
+    it('should allow disabling enhancements', async () => {
+      const mockChild = createMockChildProcess();
+      (childProcess.spawn as jest.Mock).mockReturnValue(mockChild);
+      (fs.existsSync as jest.Mock).mockReturnValue(true);
+      (fs.statSync as jest.Mock).mockReturnValue({ size: 512 });
+
+      const convertPromise = GraphicsMagickSpawner.convertPdfPageToPng(
+        '/path/to/input.pdf',
+        1,
+        '/path/to/output.png',
+        {
+          applyEnhancements: false,
+          density: 200,
+          width: 1600,
+          height: 2000
+        }
+      );
+
+      mockChild.emit('close', 0);
+      await convertPromise;
+
+      const spawnArgs = (childProcess.spawn as jest.Mock).mock.calls[0][1];
+
+      expect(spawnArgs).toEqual([
+        'convert',
+        '-density', '200',
+        '-units', 'PixelsPerInch',
+        '-define', 'pdf:use-cropbox=true',
+        '-background', 'white',
+        '/path/to/input.pdf[0]',
+        '-alpha', 'remove',
+        '-alpha', 'off',
+        '-flatten',
+        '-strip',
+        '-filter', 'Lanczos',
+        '-resize', '1600x2000>',
+        '-depth', '8',
+        '-quality', '100',
+        '-compress', 'Zip',
+        '/path/to/output.png'
+      ]);
     });
 
     it('should throw error if conversion fails', async () => {

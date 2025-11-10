@@ -18,6 +18,15 @@ export interface SpawnResult {
   success: boolean;
 }
 
+export interface PdfConversionOptions {
+  density?: number;
+  width?: number;
+  height?: number;
+  applyEnhancements?: boolean;
+  contrastStretch?: string;
+  sharpen?: string;
+}
+
 export class GraphicsMagickSpawner {
   private static useSystemFallback = false;
   private static systemBinaryPath: string | null = null;
@@ -230,25 +239,53 @@ export class GraphicsMagickSpawner {
     pdfPath: string,
     pageNumber: number,
     outputPath: string,
-    options?: {
-      density?: number;
-      width?: number;
-      height?: number;
-    }
+    options?: PdfConversionOptions
   ): Promise<string> {
-    const density = options?.density || 300;
-    const width = options?.width || 2480;
-    const height = options?.height || 3508;
-    
-    // GraphicsMagick command: gm convert -density 300 -resize 2480x3508 input.pdf[0] output.png
-    const args = [
+    const density = options?.density ?? 300;
+    const width = options?.width ?? 2480;
+    const height = options?.height ?? 3508;
+    const applyEnhancements = options?.applyEnhancements ?? true;
+    const contrastStretch = options?.contrastStretch ?? '0.35%x0.35%';
+    const sharpen = options?.sharpen ?? '0x1.0';
+    const resizeArg = `${width}x${height}>`;
+
+    const pageSpecifier = `${pdfPath}[${pageNumber - 1}]`;
+
+    const args: string[] = [
       'convert',
       '-density', density.toString(),
-      '-resize', `${width}x${height}`,
-      `${pdfPath}[${pageNumber - 1}]`, // GraphicsMagick uses 0-based page indexing
-      outputPath
+      '-units', 'PixelsPerInch',
+      '-define', 'pdf:use-cropbox=true',
+      '-background', 'white',
+      pageSpecifier,
+      '-alpha', 'remove',
+      '-alpha', 'off',
+      '-flatten',
+      '-strip'
     ];
-    
+
+    if (width && height) {
+      args.push('-filter', 'Lanczos', '-resize', resizeArg);
+    }
+
+    if (applyEnhancements) {
+      args.push(
+        '-colorspace', 'Gray',
+        '-type', 'Grayscale',
+        '-contrast-stretch', contrastStretch,
+        '-sharpen', sharpen,
+        '-enhance',
+        '-normalize'
+      );
+    }
+
+    args.push(
+      '-depth', '8',
+      '-quality', '100',
+      '-compress', 'Zip',
+      outputPath
+    );
+
     console.log(`🔄 Converting PDF page ${pageNumber} to PNG...`);
     console.log(`   Input: ${pdfPath}`);
     console.log(`   Output: ${outputPath}`);
