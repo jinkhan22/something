@@ -1,0 +1,73 @@
+name: Build macOS DMGs
+
+on:
+  release:
+    types:
+      - published
+
+jobs:
+  build:
+    name: Build ${{ matrix.label }} DMG
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-13
+            arch: x64
+            label: Intel
+          - os: macos-14
+            arch: arm64
+            label: Apple Silicon
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: automotive-appraisal/package-lock.json
+
+      - name: Install GraphicsMagick and Ghostscript
+        run: brew install graphicsmagick ghostscript
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: automotive-appraisal
+
+      - name: Cache Electron downloads
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/Library/Caches/electron
+            ~/Library/Caches/electron-builder
+            ~/.cache/electron
+            ~/.cache/electron-builder
+          key: ${{ runner.os }}-${{ matrix.arch }}-electron-${{ hashFiles('automotive-appraisal/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ matrix.arch }}-electron-
+
+      - name: Build DMG
+        run: npm run make -- --arch=${{ matrix.arch }}
+        working-directory: automotive-appraisal
+
+      - name: Locate DMG output
+        id: locate
+        run: |
+          DMG_PATH=$(find automotive-appraisal/out/make -type f -name "*darwin-${{ matrix.arch }}*.dmg" | head -n 1)
+          if [ -z "$DMG_PATH" ]; then
+            echo "No DMG found" >&2
+            exit 1
+          fi
+          echo "dmg_path=$DMG_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Upload DMG to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.locate.outputs.dmg_path }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
