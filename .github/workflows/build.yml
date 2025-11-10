@@ -15,10 +15,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: macos-13
+          - os: macos-15-intel
             arch: x64
             label: Intel
-          - os: macos-14
+          - os: macos-15
             arch: arm64
             label: Apple Silicon
 
@@ -34,6 +34,8 @@ jobs:
           cache-dependency-path: automotive-appraisal/package-lock.json
 
       - name: Install GraphicsMagick and Ghostscript
+        env:
+          HOMEBREW_NO_AUTO_UPDATE: 1
         run: brew install graphicsmagick ghostscript
 
       - name: Install dependencies
@@ -56,15 +58,18 @@ jobs:
         run: npm run make -- --arch=${{ matrix.arch }}
         working-directory: automotive-appraisal
 
-      - name: Locate DMG output
+      - name: Locate and rename DMG
         id: locate
         run: |
-          DMG_PATH=$(find automotive-appraisal/out/make -type f -name "*darwin-${{ matrix.arch }}*.dmg" | head -n 1)
+          DMG_PATH=$(ls automotive-appraisal/out/make/*.dmg 2>/dev/null | head -n 1)
           if [ -z "$DMG_PATH" ]; then
             echo "No DMG found" >&2
+            ls -R automotive-appraisal/out || true
             exit 1
           fi
-          echo "dmg_path=$DMG_PATH" >> "$GITHUB_OUTPUT"
+          RENAMED_PATH="automotive-appraisal/out/make/Auto-Appraisal-Reporter-${{ matrix.arch }}.dmg"
+          mv "$DMG_PATH" "$RENAMED_PATH"
+          echo "dmg_path=$RENAMED_PATH" >> "$GITHUB_OUTPUT"
 
       - name: Upload DMG to release
         uses: softprops/action-gh-release@v2
