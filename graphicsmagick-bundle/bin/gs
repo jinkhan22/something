@@ -1,0 +1,13 @@
+#!/bin/bash
+# Wrapper script for Ghostscript with library path setup
+
+# Get the directory containing this script
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LIB_DIR="$(cd "$SCRIPT_DIR/../lib" && pwd)"
+
+# Set library paths for dynamic linker
+export DYLD_LIBRARY_PATH="${LIB_DIR}:${DYLD_LIBRARY_PATH}"
+export DYLD_FALLBACK_LIBRARY_PATH="${LIB_DIR}:${DYLD_FALLBACK_LIBRARY_PATH}"
+
+# Execute the real Ghostscript binary
+exec "${SCRIPT_DIR}/gs-real" "$@"

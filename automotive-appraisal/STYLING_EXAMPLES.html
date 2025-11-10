@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling System Examples</title>
+  <style>
+    /* Import the styling system */
+    @import url('./src/renderer/styles/tailwind.css');
+    @import url('./src/renderer/styles/components.css');
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      padding: 2rem;
+      background: #f9fafb;
+    }
+    
+    .example-section {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .example-section h2 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #1f2937;
+    }
+    
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    
+    .badge-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="margin-bottom: 2rem; color: #1f2937;">Automotive Appraisal - Styling System Examples</h1>
+  
+  <!-- Button Examples -->
+  <div class="example-section">
+    <h2>Button Styles</h2>
+    <div class="button-grid">
+      <button class="btn-primary">Primary Button</button>
+      <button class="btn-secondary">Secondary Button</button>
+      <button class="btn-success">Success Button</button>
+      <button class="btn-danger">Danger Button</button>
+    </div>
+    
+    <h3 style="margin-top: 1.5rem; margin-bottom: 1rem;">Button Sizes</h3>
+    <div class="button-grid">
+      <button class="btn-primary btn-sm">Small</button>
+      <button class="btn-primary">Default</button>
+      <button class="btn-primary btn-lg">Large</button>
+    </div>
+    
+    <h3 style="margin-top: 1.5rem; margin-bottom: 1rem;">Disabled State</h3>
+    <div class="button-grid">
+      <button class="btn-primary" disabled>Disabled Primary</button>
+      <button class="btn-secondary" disabled>Disabled Secondary</button>
+    </div>
+  </div>
+  
+  <!-- Card Examples -->
+  <div class="example-section">
+    <h2>Card Components</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-header">
+          <h3 style="margin: 0;">Basic Card</h3>
+        </div>
+        <div class="card-body">
+          <p style="margin: 0;">This is a basic card with header and body sections.</p>
+        </div>
+      </div>
+      
+      <div class="card card-hover">
+        <div class="card-header">
+          <h3 style="margin: 0;">Hover Card</h3>
+        </div>
+        <div class="card-body">
+          <p style="margin: 0;">Hover over this card to see the lift effect.</p>
+        </div>
+      </div>
+      
+      <div class="card card-interactive">
+        <div class="card-header">
+          <h3 style="margin: 0;">Interactive Card</h3>
+        </div>
+        <div class="card-body">
+          <p style="margin: 0;">This card has enhanced hover effects for clickable content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Badge Examples -->
+  <div class="example-section">
+    <h2>Badge Components</h2>
+    <div class="badge-row">
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-error">Error</span>
+      <span class="badge badge-gray">Neutral</span>
+    </div>
+  </div>
+  
+  <!-- Animation Examples -->
+  <div class="example-section">
+    <h2>Entrance Animations</h2>
+    <p style="margin-bottom: 1rem;">Refresh the page to see entrance animations:</p>
+    <div class="card-grid">
+      <div class="card fade-in">
+        <div class="card-body">
+          <strong>Fade In</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Simple fade in effect</p>
+        </div>
+      </div>
+      
+      <div class="card fade-in-up" style="animation-delay: 0.1s;">
+        <div class="card-body">
+          <strong>Fade In Up</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Fades in from bottom</p>
+        </div>
+      </div>
+      
+      <div class="card scale-in" style="animation-delay: 0.2s;">
+        <div class="card-body">
+          <strong>Scale In</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Scales up smoothly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Loading States -->
+  <div class="example-section">
+    <h2>Loading States</h2>
+    <div style="display: flex; gap: 2rem; align-items: center;">
+      <div>
+        <p style="margin-bottom: 0.5rem; font-weight: 500;">Spinners</p>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <div class="spinner spinner-sm" style="color: #2563eb;"></div>
+          <div class="spinner spinner-md" style="color: #2563eb;"></div>
+          <div class="spinner spinner-lg" style="color: #2563eb;"></div>
+        </div>
+      </div>
+      
+      <div style="flex: 1;">
+        <p style="margin-bottom: 0.5rem; font-weight: 500;">Progress Bar</p>
+        <div class="progress-bar">
+          <div class="progress-bar-fill" style="width: 65%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Input Examples -->
+  <div class="example-section">
+    <h2>Input Styles</h2>
+    <div style="display: grid; gap: 1rem; max-width: 500px;">
+      <div>
+        <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Standard Input</label>
+        <input type="text" class="input" placeholder="Enter text..." />
+      </div>
+      
+      <div>
+        <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Error State</label>
+        <input type="text" class="input input-error" placeholder="Invalid input" />
+      </div>
+      
+      <div>
+        <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Success State</label>
+        <input type="text" class="input input-success" placeholder="Valid input" />
+      </div>
+    </div>
+  </div>
+  
+  <!-- Hover Effects -->
+  <div class="example-section">
+    <h2>Hover Effects</h2>
+    <div class="card-grid">
+      <div class="card hover-lift">
+        <div class="card-body">
+          <strong>Hover Lift</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Lifts up on hover</p>
+        </div>
+      </div>
+      
+      <div class="card hover-glow">
+        <div class="card-body">
+          <strong>Hover Glow</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Glows on hover</p>
+        </div>
+      </div>
+      
+      <div class="card hover-scale">
+        <div class="card-body">
+          <strong>Hover Scale</strong>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.875rem; color: #6b7280;">Scales up on hover</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Utility Classes -->
+  <div class="example-section">
+    <h2>Utility Classes</h2>
+    <div style="display: grid; gap: 1rem;">
+      <div>
+        <h3 class="text-gradient" style="margin: 0;">Text Gradient</h3>
+        <p style="margin: 0.5rem 0 0 0; color: #6b7280;">Gradient text effect</p>
+      </div>
+      
+      <div class="bg-gradient-primary" style="padding: 1rem; border-radius: 0.5rem; color: white;">
+        <strong>Primary Gradient Background</strong>
+      </div>
+      
+      <div class="bg-gradient-success" style="padding: 1rem; border-radius: 0.5rem; color: white;">
+        <strong>Success Gradient Background</strong>
+      </div>
+      
+      <div class="bg-gradient-subtle" style="padding: 1rem; border-radius: 0.5rem;">
+        <strong>Subtle Gradient Background</strong>
+      </div>
+    </div>
+  </div>
+  
+  <div style="margin-top: 2rem; padding: 1rem; background: #fef3c7; border-radius: 0.5rem; border: 1px solid #fbbf24;">
+    <strong>Note:</strong> This is a demonstration page. In the actual application, these styles are applied through React components with proper accessibility attributes and state management.
+  </div>
+</body>
+</html>

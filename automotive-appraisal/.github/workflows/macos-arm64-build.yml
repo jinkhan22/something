@@ -1,0 +1,53 @@
+name: macOS Apple Silicon Build
+
+on:
+  workflow_dispatch:
+    inputs:
+      run-tests:
+        description: "Run unit tests before packaging"
+        required: false
+        default: "true"
+
+jobs:
+  build-arm64:
+    runs-on: macos-14
+    env:
+      NODE_ENV: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        working-directory: automotive-appraisal
+        run: npm ci
+
+      - name: Run unit tests (optional)
+        if: github.event.inputs.run-tests == 'true'
+        working-directory: automotive-appraisal
+        run: npm test -- --runInBand
+
+      - name: Generate architecture-specific GraphicsMagick bundle
+        working-directory: automotive-appraisal
+        run: npm run bundle:gm
+
+      - name: Package Electron application (arm64)
+        working-directory: automotive-appraisal
+        run: |
+          npm run make -- --platform=darwin --arch=arm64
+
+      - name: Upload packaged artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: automotive-appraisal-darwin-arm64
+          path: |
+            automotive-appraisal/out/make
+            automotive-appraisal/out/Automotive Appraisal Reporter-darwin-arm64
+          if-no-files-found: error

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<delegatemap>
+  <delegate decode="ps:alpha" command="@GS_BIN_PATH@ -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 -sDEVICE=pngalpha -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r%s %s -sOutputFile=%s %s"/>
+  <delegate decode="ps:color" command="@GS_BIN_PATH@ -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 -sDEVICE=pnmraw -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r%s %s -sOutputFile=%s %s"/>
+  <delegate decode="pdf" command="@GS_BIN_PATH@ -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 -sDEVICE=pnmraw -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r%s %s -sOutputFile=%s %s"/>
+  <delegate decode="eps" command="@GS_BIN_PATH@ -q -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 -sDEVICE=pnmraw -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r%s %s -sOutputFile=%s %s"/>
+</delegatemap>
+

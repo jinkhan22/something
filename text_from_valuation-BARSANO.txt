@@ -1,0 +1,492 @@
+Vehicle Valuation Report
+Prepared For Progressive Group of Insurance Companies (800) 321-9843
+Claim Information
+Claim Number Policy Number Loss Type
+25-950619550-01
+COLLISION
+Insured
+MAOR BARSANO
+Loss Date Reported Date Valuation Report Date Valuation Report ID
+03/31/2025
+04/02/2025 04/25/2025 1021405385
+Vehicle Information
+Version Number
+2
+Year Make Model Location
+2022 BMW M3 Competition 4 Door Sedan 3.0L 6
+Cyl Gas Turbocharged A RWD
+CA 91607
+Ext Color VIN
+License
+Frozen Brilliant
+White Metallic
+Valuation Summary
+Mileage
+31,837 miles
+WBS33AY09NFL79043
+Title History
+No
+Loss Vehicle Adjustments
+Adjustments specific to your vehicle
+Base Value = $73,261.27
+Condition $0.00
+Prior Damage $0.00
+Aftermarket/OEM Parts + $130.00
+Refurbishment $0.00
+Market Value = $73,391.27
+Settlement Adjustments
+Adjustments specific to your policy
+Deductible - $750.00
+Settlement Value:
+$72,641.27
+Settlement Value =
+$72,641.27
+© 2025 Mitchell International, Inc. All Rights Reserved.
+Loss Vehicle Detail
+Loss vehicle: 2022 BMW M3 | Competition 4 Door Sedan | 3.0L 6 Cyl Gas Turbocharged A RWD
+Standard Equipment
+Exterior
+Auto On/Off Projector Beam Led Low/High Beam Auto-Leveling Directionally Adaptive
+Auto High-Beam Daytime Running Lights Preference Setting Headlamps w/Delay-Off Black Power Heated Auto Dimming Side Mirrors w/Power Folding and Turn Signal
+Indicator Black grille
+Black Side Windows Trim and Black Front Windshield Trim
+Body-colored door handles Body-colored front bumper
+Body-Colored Rear Bumper w/Black Rub Strip/Fascia Accent Clearcoat Paint w/Badging
+Fixed Rear Window w/Defroster Galvanized Steel/Aluminum/Composite Panels
+Headlights-Automatic Highbeams LED brakelights
+Light tinted glass Lip spoiler
+Perimeter/Approach Lights Rocker Panel Extensions
+Speed Sensitive Rain Detecting Variable Intermittent Wipers w/Heated Jets Tailgate/Rear Door Lock Included w/Power Door Locks
+Tire mobility kit Tires: 275/35R19 Fr & 285/30R20 Rr Performance -inc: Non run-flat
+Trunk Rear Cargo Access Wheels: 19"x9.5" Fr.&20"x10.5"Rr. M Bi-color (1T8) -inc: Style 826M, Double-spoke
+Interior
+12-Way Driver Seat -inc: Manual Cushion Extension 12-Way Passenger Seat -inc: Manual Cushion Extension
+16 Speakers 2 LCD Monitors In The Front
+3 12V DC Power Outlets 40-20-40 Folding Bench Front Facing Fold Forward Seatback Rear Seat
+464w Premium Amplifier Air filtration
+Apple CarPlay & Android Auto Compatibility Artti Real-Time Traffic Display
+BMW Assist eCall BMW Teleservices
+Cargo Area Concealed Storage Cargo Features -inc: Tire Mobility Kit
+Cargo net Cargo Space Lights
+Carpet Floor Trim and Carpet Trunk Lid/Rear Cargo Door Trim Compass
+ConnectedDrive Services Cruise control w/steering wheel controls
+Day-Night Auto-Dimming Rearview Mirror Delayed Accessory Power
+Digital Signal Processor Digital/Analog Appearance
+Driver And Passenger Visor Vanity Mirrors w/Driver And Passenger Illumination Driver foot rest
+Driver information center Dual Zone Front Automatic Air Conditioning
+Enhanced Bluetooth Extended Merino leather seat upholstery
+Fade-to-off interior lighting FOB Controls -inc: Cargo Access and Windows
+Front And Rear Map Lights Front Cupholder
+Full Carpet Floor Covering -inc: Carpet Front And Rear Floor Mats Full cloth headliner
+Full Floor Console w/Covered Storage and 3 12V DC Power Outlets Garage Door Transmitter
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 2
+Gauges -inc: Speedometer, Odometer, Engine Coolant Temp, Tachometer, Trip Odometer
+and Trip Computer harman/kardon Surround Sound System
+Heated front seats HVAC -inc: Underseat Ducts, Residual Heat Recirculation and Console Ducts
+Illuminated glove box Immobilizer
+Instrument Panel Covered Bin, Driver / Passenger And Rear Door Bins Interior Lock Disable
+Interior Trim -inc: Aluminum Instrument Panel Insert, Metal-Look Door Panel Insert,
+Aluminum Console Insert and Metal-Look Interior Accents Leather/Metal-Look Gear Shifter Material
+Leatherette Door Trim Insert Live Cockpit Pro w/Navigation
+Lumbar Support M Sport Seats
+Manual Adjustable Front Head Restraints and Manual Foldable Rear Head Restraints Manual tilt/telescoping steering column
+Memory Settings -inc: Driver Seat and Door Mirrors Outside temp gauge
+Perimeter alarm Power 1st Row Windows w/Front And Rear 1-Touch Up/Down
+Power Door Locks w/Autolock Feature Power Front Seats
+Power Fuel Flap Locking Type Power Rear Windows
+Proximity Key For Doors And Push Button Start
+Radio w/Seek-Scan, Clock, Speed Compensated Volume Control, Aux Audio Input
+Jack, Steering Wheel Controls, Voice Activation, Radio Data System, External
+Memory Control and 20 Gb Internal Memory
+Radio: AM/FM Audio System Rear cupholder
+Rear HVAC w/Separate Controls Redundant Digital Speedometer
+Remote Keyless Entry w/Integrated Key Transmitter, 4 Door Curb/Courtesy, Illuminated
+Entry and Panic Button Remote Releases -Inc: Proximity Cargo Access
+SiriusXM w/360L -inc: 1 year platinum plan subscription Sliding front center armrest
+Sport Leather/Metal-Look Steering Wheel Streaming Audio
+Style Leather/Metal-Look Steering Wheel Tracker System
+Trip computer Valet Function
+Window Grid Diversity Antenna
+Mechanical
+15.6 Gal. Fuel Tank 3.15 Axle Ratio
+4-Wheel Disc Brakes w/4-Wheel ABS, Front And Rear Vented Discs, Brake Assist, Hill
+Hold Control and Electric Parking Brake 70-Amp/Hr Maintenance-Free Battery w/Run Down Protection
+Automatic w/Driver Control Ride Control Sport Tuned Adaptive Suspension Dual Stainless Steel Exhaust w/Dark Chrome Tailpipe Finisher
+Electric Power-Assist Speed-Sensing Steering Electro-Mechanical Limited Slip Differential
+Engine Auto Stop-Start Feature Engine Oil Cooler
+Engine: 3.0L 6-Cylinder TwinPower Turbo Front And Rear Anti-Roll Bars
+Gas-pressurized shock absorbers Multi-link rear suspension w/coil springs
+Rear-wheel drive Regenerative Alternator
+Strut Front Suspension w/Coil Springs Transmission w/Driver Selectable Mode, M Steptronic Sequential Shift Control
+w/Steering Wheel Controls and Oil Cooler
+Transmission: 8-Speed Steptronic Automatic
+Safety
+Airbag Occupancy Sensor Back-up camera
+Blind Spot Detection Blind Spot Collision Mitigation-Rear Collision Mitigation-Front
+Curtain 1st And 2nd Row Airbags
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 3
+Driver And Passenger Knee Airbag DSC Electronic Stability Control (ESC) Dual Stage Driver And Passenger Seat-Mounted Side Airbags Lane departure warning Outboard Front Lap And Shoulder Safety Belts -inc: Rear Center 3 Point and
+Pretensioners Rear child safety locks Tire Specific Low Tire Pressure Warning
+Driver Monitoring-Alert
+Dual Stage Driver And Passenger Front Airbags
+Frontal Collision Warning
+M Traction Control ABS And Driveline Traction Control
+Park Distance Control Front And Rear Parking Sensors
+Side impact beams
+Packages
+DRIVING ASSISTANCE PROFESSIONAL PACKAGE
+-inc: Active Driving Assistant Pro, Extended Traffic Jam Assistant, For limited access highways
+EXECUTIVE PACKAGE
+-inc: Remote Engine Start, Power Tailgate, Gesture Control, Head-Up Display, Heated Steering Wheel
+M CARBON EXTERIOR PACKAGE
+PARKING ASSISTANCE PACKAGE
+-inc: Drive Recorder, Parking Assistant Plus
+Optional Equipment
+CARBON FIBER TRIM M SHADOWLINE LIGHTS
+*DIO/PIO = Dealer/Port Installed Options
+Loss Vehicle Base Value
+Loss vehicle: 2022 BMW M3 | Competition 4 Door Sedan | 3.0L 6 Cyl Gas Turbocharged A RWD
+Comparable Vehicle Information
+Search Radius used for this valuation: 75 miles from loss vehicle zip/postal code.
+Typical Mileage for this vehicle: 27,000 miles
+# Vehicle Description Mileage Location
+Distance From
+Loss Vehicle Price Adjusted Value
+1 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 2 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 3 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 4 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 5 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 6 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 7 2022 BMW M3 COMPETITION 4D SDN 6 3TURBO
+GAS A 2WD 33,414 90036 7 miles $69,700.00
+Sold Price $76,262.11
+15,201 91801 16 miles $73,100.00
+Sold Price $72,390.44
+40,492 91016 24 miles $67,900.00
+Sold Price $69,845.04
+34,435 92782 45 miles $68,100.00
+Sold Price $78,464.91
+38,067 91601 2 miles $65,900.00
+List Price $72,954.23
+21,750 90045 15 miles $74,900.00
+List Price $69,628.46
+43,360 92705 44 miles $67,127.00
+List Price $73,283.67
+Base Value: $73,261.27
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 4
+Loss Vehicle Adjustments
+Loss vehicle:
+Condition Adjustments
+2022 BMW M3 | Competition 4 Door Sedan | 3.0L 6 Cyl Gas Turbocharged A RWD
+Condition Adjustment: $0.00 Overall Condition: 3.00-Good Typical Vehicle Condition: 3.00
+Category Condition Condition $ Comments
+Interior
+SEATS 3 Good $0.00 normal wear, light stain
+CARPET 3 Good $0.00 normal wear, light stain
+DOORS/INTERIOR PANELS 3 Good $0.00 normal wear, no damages
+GLASS 3 Good $0.00 light scuffed
+HEADLINER 3 Good $0.00 light scuffed
+DASH/CONSOLE 3 Good $0.00 normal wear, no damages
+Exterior
+TRIM 3 Good $0.00 normal wear, no damages
+PAINT 3 Good $0.00 no major damages
+VINYL/CONVERTIBLE TOP Typical $0.00
+BODY 3 Good $0.00 no major dents or damages
+Mechanical
+ENGINE 3 Good $0.00 running
+TRANSMISSION 3 Good $0.00 N/A
+Tire 3 Good $0.00
+Typical Vehicle Condition reflects a condition similar to the same year, make and model. Amount of wear and tear/ damage
+consistent with its age.
+Comments:
+After Market Parts and OEM Equipment Adjustments
+Category Description Adjustment Type Adjustment Amount
+INTERIOR WINDOW TINT- SEDAN / 5 DOOR HB / WAGON INSTANT QUOTE $130.00
+Comparable Vehicles
+Loss vehicle:
+2022 BMW M3 | Competition 4 Door Sedan | 3.0L 6 Cyl Gas Turbocharged A RWD
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 5
+1 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD Sold Price: $69,700.00
+VIN
+WBS33AY00NFN00932
+Stock No Listing Date
+02/25/2025
+ZIP/Postal Code
+90036
+Distance from Loss Vehicle
+7 miles
+Source
+DEALER SALE - BUILDSHEET -
+CALIFORNIA DMV
+BEVERLY HILLS BMW
+5070 WILSHIRE BLVD
+LOS ANGELES CA 90036
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 33,414 $482.54
+Equipment
+DRIVING ASSISTANCE
+PROFESSIONAL PACKAGE
+Yes No $1,627.63
+M CARBON EXTERIOR PACKAGE Yes No $4,499.83
+M SHADOWLINE LIGHTS Yes No $287.23
+FRONT VENTILATED SEATS No Yes -$335.12
+Total Adjustments: $6,562.11
+Adjusted Price:
+$76,262.11
+Comparable Vehicle Package Details:
+EXECUTIVE PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+CARBON FIBER TRIM, FRONT VENTILATED SEATS
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 6
+2 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD Sold Price: $73,100.00
+VIN
+WBS33AY08NFL95881
+Stock No Listing Date
+01/27/2025
+ZIP/Postal Code
+91801
+Distance from Loss Vehicle
+16 miles
+Source
+DEALER SALE - BUILDSHEET -
+CALIFORNIA DMV
+NEW CENTURY BMW
+1139 W MAIN ST
+ALHAMBRA CA 91801
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 15,201 -$4,876.63
+Equipment
+DRIVING ASSISTANCE
+PROFESSIONAL PACKAGE
+Yes No $1,707.03
+M CARBON EXTERIOR PACKAGE Yes No $4,719.34
+M DRIVE PROFESSIONAL No Yes -$903.74
+ICON ADAPTIVE LED
+No Yes -$1,004.10
+HEADLIGHTS W/LASERLIGHT
+FRONT VENTILATED SEATS No Yes -$351.46
+Total Adjustments: -$709.56
+Adjusted Price:
+$72,390.44
+Comparable Vehicle Package Details:
+EXECUTIVE PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+CARBON FIBER TRIM, M SHADOWLINE LIGHTS, M DRIVE PROFESSIONAL, ICON ADAPTIVE LED HEADLIGHTS W/LASERLIGHT,
+FRONT VENTILATED SEATS
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 7
+3 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD Sold Price: $67,900.00
+VIN
+WBS33AY09NFL76269
+Stock No Listing Date
+03/09/2025
+ZIP/Postal Code
+91016
+Distance from Loss Vehicle
+24 miles
+Source
+DEALER SALE - BUILDSHEET -
+CALIFORNIA DMV
+BMW OF MONROVIA/MINI OF
+MONROVIA
+1451 SOUTH MOUNTAIN AVENUE
+MONROVIA CA 91016
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 40,492 $2,178.20
+Equipment
+DRIVING ASSISTANCE
+PROFESSIONAL PACKAGE
+Yes No $1,585.60
+CARBON FIBER TRIM Yes No $886.03
+YAS MARINA BLUE/BLACK, FULL
+No Yes -$2,378.33
+MERINO LEATHER UPHOLSTERY
+FRONT VENTILATED SEATS No Yes -$326.46
+Total Adjustments: $1,945.04
+Adjusted Price:
+$69,845.04
+Comparable Vehicle Package Details:
+EXECUTIVE PACKAGE
+M CARBON EXTERIOR PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+M SHADOWLINE LIGHTS, YAS MARINA BLUE/BLACK, FULL MERINO LEATHER UPHOLSTERY, FRONT VENTILATED SEATS
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 8
+4 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD VIN
+WBS33AY01NFM19549
+Stock No Listing Date
+02/05/2025
+ZIP/Postal Code
+92782
+Sold Price: $68,100.00
+Distance from Loss Vehicle
+45 miles
+Source
+DEALER SALE - BUILDSHEET -
+CALIFORNIA DMV
+TUSTIN BUICK GMC
+1 AUTO CENTER DR
+TUSTIN CA 92782
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 34,435 $776.70
+Equipment
+DRIVING ASSISTANCE
+PROFESSIONAL PACKAGE
+Yes No $1,590.27
+EXECUTIVE PACKAGE Yes No $1,683.77
+M CARBON EXTERIOR PACKAGE Yes No $4,396.54
+PARKING ASSISTANCE PACKAGE Yes No $748.35
+CARBON FIBER TRIM Yes No $888.64
+M SHADOWLINE LIGHTS Yes No $280.64
+Total Adjustments: $10,364.91
+Adjusted Price:
+$78,464.91
+5 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD List Price: $65,900.00
+VIN
+Stock No
+WBS33AY01NFL87735
+B30004
+Source
+DEALER WEB LISTING -
+BUILDSHEET - CARS.COM
+SUNRISE FORD OF NORTH
+HOLLYWOOD
+5500 LANKERSHIM BLVD
+NORTH HOLLYWOOD CA 91601
+833-748-0734
+Listing Date
+02/12/2025
+ZIP/Postal Code
+91601
+Distance from Loss Vehicle
+2 miles
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 38,067 $1,622.95
+Equipment
+DRIVING ASSISTANCE
+PROFESSIONAL PACKAGE
+Yes No $1,538.90
+M CARBON EXTERIOR PACKAGE Yes No $4,254.50
+CARBON FIBER TRIM Yes No $859.93
+FRONT VENTILATED SEATS No Yes -$316.85
+ICON ADAPTIVE LED
+No Yes -$905.20
+HEADLIGHTS W/LASERLIGHT
+Total Adjustments: $7,054.23
+Adjusted Price:
+$72,954.23
+Comparable Vehicle Package Details:
+EXECUTIVE PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+M SHADOWLINE LIGHTS, FRONT VENTILATED SEATS, ICON ADAPTIVE LED HEADLIGHTS W/LASERLIGHT
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 9
+6 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD VIN
+Stock No
+WBS33AY04NFM16449
+P2149
+Source
+DEALER WEB LISTING -
+BUILDSHEET - AUTOTRADER.COM
+MOTORENN INC
+5255 WEST 102ND STREET
+LOS ANGELES CA 90045
+424-363-7410
+Listing Date
+04/19/2025
+ZIP/Postal Code
+90045
+List Price: $74,900.00
+Distance from Loss Vehicle
+15 miles
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 21,750 -$3,316.72
+Equipment
+M DRIVE PROFESSIONAL No Yes -$925.99
+ICON ADAPTIVE LED
+No Yes -$1,028.83
+HEADLIGHTS W/LASERLIGHT
+Total Adjustments: -$5,271.54
+Adjusted Price:
+$69,628.46
+Comparable Vehicle Package Details:
+DRIVING ASSISTANCE PROFESSIONAL PACKAGE
+EXECUTIVE PACKAGE
+M CARBON EXTERIOR PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+CARBON FIBER TRIM, M SHADOWLINE LIGHTS, M DRIVE PROFESSIONAL, ICON ADAPTIVE LED HEADLIGHTS W/LASERLIGHT
+7 2022 BMW M3 COMPETITION 4D SDN 6 3 TURBO GAS A2WD VIN
+Stock No
+WBS33AY03NFL93326
+NFL93326
+Source
+DEALER WEB LISTING -
+BUILDSHEET - AUTOTRADER.COM
+CALIFORNIA MOTORS DIRECT -
+SANTA ANA
+2345 N GRAND AVE.
+SANTA ANA CA 92705
+714-515-6100
+Listing Date
+01/31/2025
+ZIP/Postal Code
+92705
+List Price: $67,127.00
+Distance from Loss Vehicle
+44 miles
+Adjustments Loss Vehicle This Vehicle Amount
+Mileage 31,837 43,360 $2,745.01
+Equipment
+M CARBON EXTERIOR PACKAGE Yes No $4,333.72
+ICON ADAPTIVE LED
+No Yes -$922.06
+HEADLIGHTS W/LASERLIGHT
+Total Adjustments: $6,156.67
+Adjusted Price:
+$73,283.67
+Comparable Vehicle Package Details:
+DRIVING ASSISTANCE PROFESSIONAL PACKAGE
+EXECUTIVE PACKAGE
+PARKING ASSISTANCE PACKAGE
+Comparable Vehicle Option Details:
+CARBON FIBER TRIM, M SHADOWLINE LIGHTS, ICON ADAPTIVE LED HEADLIGHTS W/LASERLIGHT
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 10
+Sub-Model Comparison
+Sub-Model Description Configuration Original MSRP
+2022 BMW M3 Competition 4 Door Sedan 3.0L 6 Cyl Gas Turbocharged RWD $72,800.00
+Vehicle Valuation Methodology Explanation
+WorkCenter Total Loss (“WCTL”) was designed and built by Mitchell International, Inc. in conjunction with J.D. Power, which is an expert
+in data analysis with years of experience in vehicle pricing. WCTL provides a consistent methodology across vehicle makes and models
+for estimating the value of a vehicle. The WCTL analysis is based on comparable vehicles that most closely resemble the loss vehicle,
+with certain adjustments to both the comparable vehicle and loss vehicle depending on the facts of a particular claim.
+WCTL produces accurate and easy-to-understand vehicle valuations via a five-step process:
+Step 1 - Locate Comparable Vehicles
+Locate vehicles from WCTL’s comparable vehicle database that are the closest match to the loss vehicle in the same market area. These
+are not intended to be replacement vehicles and may no longer be listed for sale .The comparable vehicle database includes millions of
+vehicles listed for sale on publicly available websites (for example, cars.com and autotrader.com), as well as sold vehicle records (where
+available).
+Step 2 - Adjust Comparable Vehicles
+Make adjustments to the prices of the comparable vehicles. There are several types of comparable vehicle adjustments, including:
+• Mileage Adjustment – an adjustment for differences in mileage between the comparable vehicle and the loss vehicle.
+• Equipment Adjustment – an adjustment for differences in equipment between the comparable vehicle and the loss vehicle
+(for example, differences in equipment packages and options).
+Step 3 - Calculate Base Vehicle Value
+Calculate the base vehicle value by averaging the adjusted prices of the comparable vehicles.
+Step 4 - Calculate Loss Vehicle Adjustments
+There are four types of loss vehicle adjustments:
+• Condition Adjustment – an adjustment to account for the condition of the loss vehicle at the time of the loss.
+• Prior Damage Adjustment – an adjustment to account for any prior damage present on the loss vehicle at the time of the
+loss.
+• After Market Part Adjustment – an adjustment to account for any aftermarket parts present on the loss vehicle at the time of
+the loss.
+• Refurbishment Adjustment – an adjustment to account for any refurbishment performed on the loss vehicle at the time of
+the loss.
+Step 5 - Calculate the Market Value
+The Market Value is calculated by applying the loss vehicle adjustments to the base value.
+For your protection California law requires the following to appear on this form. Any person who knowingly presents false or fraudulent claim for the
+payment of a loss is guilty of a crime and may be subject to fines and confinement in state prison. False representations made on a signed auto theft
+claim form subject the insured to a penalty of perjury.
+© 2025 Mitchell International, Inc. All Rights Reserved. Claim # 25-950619550-01 | Page 11
