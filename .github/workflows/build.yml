@@ -21,6 +21,7 @@ jobs:
           - os: macos-14
             arch: arm64
             label: Apple Silicon
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
